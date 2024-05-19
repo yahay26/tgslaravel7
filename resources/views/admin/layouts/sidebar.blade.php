@@ -20,6 +20,11 @@
               <i class="bi bi-circle"></i><span>Data Pelanggan</span>
             </a>
           </li>
+          <li>
+            <a href="{{route('lapangan.index')}}">
+              <i class="bi bi-circle"></i><span>Data Lapangan</span>
+            </a>
+          </li>
         </ul>
       </li><!-- End Components Nav -->
 

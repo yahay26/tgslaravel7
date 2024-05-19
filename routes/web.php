@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PelangganController;
-
+use App\Http\Controllers\LapanganController;
 Route::get('/', function () {
     return view('welcome');
 });
@@ -22,3 +22,5 @@ Route::get('/admin/logout', [AdminController::class, 'logout'])->name('admin.log
 
 //route pemanggilan data
 Route::resource('pelanggan', PelangganController::class);
+
+Route::resource('lapangan', LapanganController::class);
